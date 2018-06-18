@@ -10,16 +10,39 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var circle1: UIView!
+    
+    @IBOutlet weak var circle2: UIView!
+    
+    @IBOutlet weak var circle3: UIView!
+    
+    var annimator: UIDynamicAnimator!
+    
+    var topSnapBehavior:UISnapBehavior?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        annimator = UIDynamicAnimator(referenceView: view)
+
+        let collisionBehavior = UICollisionBehavior(items: [circle1, circle2, circle3])
+        collisionBehavior.translatesReferenceBoundsIntoBoundary = true
+        annimator.addBehavior(collisionBehavior)
     }
+    @IBAction func userPannedC1(_ sender: UIPanGestureRecognizer) {
+        if topSnapBehavior != nil {
+            annimator.removeBehavior(topSnapBehavior!)
+        }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        switch sender.state {
+        case .began, .changed:
+            topSnapBehavior = UISnapBehavior(item: circle1, snapTo: sender.location(in: view))
+            annimator.addBehavior(topSnapBehavior!)
+        default:
+            break
+        }
+
     }
-
-
+    
 }
 

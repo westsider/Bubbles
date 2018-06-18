@@ -19,11 +19,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LXR-ye-sLl" customClass="DesignableView" customModule="Bubbles" customModuleProvider="target">
-                                <rect key="frame" x="137.5" y="50" width="100" height="100"/>
-                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="138" y="50" width="100" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Itallian" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EJc-a3-9Pc">
+                                        <rect key="frame" x="25.5" y="40" width="49.5" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="0.60838505993150682" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="EJc-a3-9Pc" firstAttribute="centerX" secondItem="LXR-ye-sLl" secondAttribute="centerX" id="Hv7-Ws-PpQ"/>
                                     <constraint firstAttribute="width" constant="100" id="TaX-S5-xoe"/>
                                     <constraint firstAttribute="height" constant="100" id="c7A-ZO-Iut"/>
+                                    <constraint firstItem="EJc-a3-9Pc" firstAttribute="centerY" secondItem="LXR-ye-sLl" secondAttribute="centerY" id="fwC-LH-55d"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -33,9 +43,19 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d0a-td-bBv" customClass="DesignableView" customModule="Bubbles" customModuleProvider="target">
                                 <rect key="frame" x="137" y="537" width="100" height="100"/>
-                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BBQ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBu-dP-09n">
+                                        <rect key="frame" x="33" y="39" width="34.5" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="0.60595034246575341" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="3ac-xJ-TKD"/>
+                                    <constraint firstItem="ZBu-dP-09n" firstAttribute="centerX" secondItem="d0a-td-bBv" secondAttribute="centerX" id="449-cZ-oYS"/>
+                                    <constraint firstItem="ZBu-dP-09n" firstAttribute="centerY" secondItem="d0a-td-bBv" secondAttribute="centerY" id="BsD-IE-iPK"/>
                                     <constraint firstAttribute="height" constant="100" id="t0F-DE-nK9"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
@@ -45,11 +65,21 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YJB-AR-yoN" customClass="DesignableView" customModule="Bubbles" customModuleProvider="target">
-                                <rect key="frame" x="137.5" y="283" width="100" height="100"/>
-                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="138" y="283" width="100" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thai" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aY7-JL-Svc">
+                                        <rect key="frame" x="33.5" y="40" width="33" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="0.74288313356164382" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="4HF-Km-iPY"/>
+                                    <constraint firstItem="aY7-JL-Svc" firstAttribute="centerX" secondItem="YJB-AR-yoN" secondAttribute="centerX" id="85t-2x-Clr"/>
                                     <constraint firstAttribute="width" constant="100" id="DVz-uf-hhy"/>
+                                    <constraint firstItem="aY7-JL-Svc" firstAttribute="centerY" secondItem="YJB-AR-yoN" secondAttribute="centerY" id="j9F-HY-1gs"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -58,19 +88,35 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.89881207191780821" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="YJB-AR-yoN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="167-si-lMf"/>
                             <constraint firstItem="d0a-td-bBv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IKC-kK-ytZ"/>
-                            <constraint firstItem="YJB-AR-yoN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ltv-4w-ZIZ"/>
                             <constraint firstItem="LXR-ye-sLl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="btR-g6-arC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="d0a-td-bBv" secondAttribute="bottom" constant="30" id="iQp-gS-TLS"/>
                             <constraint firstItem="LXR-ye-sLl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="u48-SV-Abs"/>
+                            <constraint firstItem="YJB-AR-yoN" firstAttribute="leading" secondItem="LXR-ye-sLl" secondAttribute="leading" id="wmN-JP-Ad8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="v7b-bd-mIj" appends="YES" id="dsC-8g-QX8"/>
+                            <outletCollection property="gestureRecognizers" destination="i9V-4e-YRd" appends="YES" id="5ff-lY-r7f"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="circle1" destination="LXR-ye-sLl" id="6un-bR-hzl"/>
+                        <outlet property="circle2" destination="YJB-AR-yoN" id="ZZu-S7-cbX"/>
+                        <outlet property="circle3" destination="d0a-td-bBv" id="VIj-z9-ip4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="v7b-bd-mIj" userLabel="c1 Pan Gesture Recognizer"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="i9V-4e-YRd" userLabel="view Pan Gesture Recognizer">
+                    <connections>
+                        <action selector="userPannedC1:" destination="BYZ-38-t0r" id="L9k-hp-fOu"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
