@@ -16,6 +16,22 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var circle3: UIView!
     
+    @IBOutlet weak var circle4: UIView!
+    
+    @IBOutlet weak var circle12: UIView!
+    
+    @IBOutlet weak var circle6: UIView!
+    
+    @IBOutlet weak var circle7: UIView!
+    
+    @IBOutlet weak var circle8: UIView!
+    
+    @IBOutlet weak var circle9: UIView!
+    
+    @IBOutlet weak var circle10: UIView!
+    
+    @IBOutlet weak var circle11: UIView!
+    
     var annimator: UIDynamicAnimator!
     
     var topSnapBehavior:UISnapBehavior?
@@ -25,7 +41,7 @@ class ViewController: UIViewController {
         
         annimator = UIDynamicAnimator(referenceView: view)
 
-        let collisionBehavior = UICollisionBehavior(items: [circle1, circle2, circle3])
+        let collisionBehavior = UICollisionBehavior(items: [circle1, circle2, circle3, circle4, circle6, circle7, circle8, circle9, circle10, circle11, circle12])
         collisionBehavior.translatesReferenceBoundsIntoBoundary = true
         annimator.addBehavior(collisionBehavior)
     }

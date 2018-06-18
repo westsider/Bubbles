@@ -22,7 +22,7 @@
                                 <rect key="frame" x="138" y="50" width="100" height="100"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Itallian" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EJc-a3-9Pc">
-                                        <rect key="frame" x="25.5" y="40" width="49.5" height="21"/>
+                                        <rect key="frame" x="25" y="40" width="50" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -45,7 +45,7 @@
                                 <rect key="frame" x="137" y="537" width="100" height="100"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BBQ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBu-dP-09n">
-                                        <rect key="frame" x="33" y="39" width="34.5" height="21"/>
+                                        <rect key="frame" x="33" y="39" width="35" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -68,7 +68,7 @@
                                 <rect key="frame" x="138" y="283" width="100" height="100"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thai" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aY7-JL-Svc">
-                                        <rect key="frame" x="33.5" y="40" width="33" height="21"/>
+                                        <rect key="frame" x="34" y="40" width="33" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -87,16 +87,136 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lnm-dK-qwF" customClass="DesignableView" customModule="Bubbles" customModuleProvider="target">
+                                <rect key="frame" x="27" y="485" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.25882352941176473" green="0.36862745098039218" blue="0.12156862745098039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="8Mf-Zl-OFl"/>
+                                    <constraint firstAttribute="height" constant="50" id="lYN-jN-ufX"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="79E-IN-0rD" customClass="DesignableView" customModule="Bubbles" customModuleProvider="target">
+                                <rect key="frame" x="274" y="283" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.36470588235294116" green="0.54117647058823526" blue="0.63137254901960782" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="1P8-rD-9Pv"/>
+                                    <constraint firstAttribute="width" constant="50" id="Kgd-aH-yH9"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZZd-wD-n9l" customClass="DesignableView" customModule="Bubbles" customModuleProvider="target">
+                                <rect key="frame" x="27" y="225" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.054901960784313725" green="0.19607843137254902" blue="0.73333333333333328" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="1B6-jg-Zd3"/>
+                                    <constraint firstAttribute="width" constant="50" id="cae-D6-884"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kDR-Ui-rra" customClass="DesignableView" customModule="Bubbles" customModuleProvider="target">
+                                <rect key="frame" x="27" y="41" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.054901960784313725" green="0.19607843137254902" blue="0.73333333333333328" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="GoF-BZ-LY8"/>
+                                    <constraint firstAttribute="width" constant="50" id="UkA-hE-pq2"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gc7-kT-F3p" customClass="DesignableView" customModule="Bubbles" customModuleProvider="target">
+                                <rect key="frame" x="85" y="138" width="75" height="75"/>
+                                <color key="backgroundColor" red="0.36470588235294116" green="0.54117647058823526" blue="0.63137254901960782" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="5Gf-i1-I99"/>
+                                    <constraint firstAttribute="width" constant="75" id="Bp6-3J-cKg"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="37"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o3r-Sw-UhT" customClass="DesignableView" customModule="Bubbles" customModuleProvider="target">
+                                <rect key="frame" x="178" y="180" width="75" height="75"/>
+                                <color key="backgroundColor" red="0.054901960784313725" green="0.19607843137254902" blue="0.73333333333333328" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="O0s-J8-1l3"/>
+                                    <constraint firstAttribute="height" constant="75" id="gcf-SN-tlP"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="37"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xjf-ut-Clz" customClass="DesignableView" customModule="Bubbles" customModuleProvider="target">
+                                <rect key="frame" x="249" y="428" width="75" height="75"/>
+                                <color key="backgroundColor" red="0.25882352941176473" green="0.36862745098039218" blue="0.12156862745098039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="Cz6-qz-7ws"/>
+                                    <constraint firstAttribute="height" constant="75" id="Lrb-3o-RMU"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="37"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LKE-cp-qqb" customClass="DesignableView" customModule="Bubbles" customModuleProvider="target">
+                                <rect key="frame" x="55" y="370" width="75" height="75"/>
+                                <color key="backgroundColor" red="0.36470588235294116" green="0.54117647058823526" blue="0.63137254901960782" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="rmy-G1-8gU"/>
+                                    <constraint firstAttribute="height" constant="75" id="snh-zS-jdh"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="37"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.89881207191780821" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="YJB-AR-yoN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="167-si-lMf"/>
+                            <constraint firstItem="o3r-Sw-UhT" firstAttribute="leading" secondItem="gc7-kT-F3p" secondAttribute="trailing" constant="18" id="17C-1u-faY"/>
+                            <constraint firstItem="ZZd-wD-n9l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="27" id="3Gi-9V-fv9"/>
+                            <constraint firstItem="ZZd-wD-n9l" firstAttribute="leading" secondItem="lnm-dK-qwF" secondAttribute="leading" id="3Xo-Mm-KYl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xjf-ut-Clz" secondAttribute="trailing" constant="51" id="6fG-MS-lg8"/>
+                            <constraint firstItem="YJB-AR-yoN" firstAttribute="leading" secondItem="LKE-cp-qqb" secondAttribute="trailing" constant="8" symbolic="YES" id="Dkm-7J-0FR"/>
+                            <constraint firstItem="gc7-kT-F3p" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="GV6-hd-k4N"/>
+                            <constraint firstItem="YJB-AR-yoN" firstAttribute="top" secondItem="o3r-Sw-UhT" secondAttribute="bottom" constant="28" id="HhV-Te-k06"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xjf-ut-Clz" secondAttribute="bottom" constant="164" id="I5Y-xe-LRM"/>
                             <constraint firstItem="d0a-td-bBv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IKC-kK-ytZ"/>
+                            <constraint firstItem="ZZd-wD-n9l" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="225" id="RzR-K4-7GW"/>
+                            <constraint firstItem="kDR-Ui-rra" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="21" id="UER-QQ-4Ri"/>
+                            <constraint firstItem="LKE-cp-qqb" firstAttribute="top" secondItem="ZZd-wD-n9l" secondAttribute="bottom" constant="95" id="X4M-OZ-lIu"/>
                             <constraint firstItem="LXR-ye-sLl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="btR-g6-arC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="d0a-td-bBv" secondAttribute="bottom" constant="30" id="iQp-gS-TLS"/>
+                            <constraint firstItem="lnm-dK-qwF" firstAttribute="top" secondItem="LKE-cp-qqb" secondAttribute="bottom" constant="40" id="jTg-Gw-NEV"/>
+                            <constraint firstItem="xjf-ut-Clz" firstAttribute="trailing" secondItem="79E-IN-0rD" secondAttribute="trailing" id="mIk-eD-Dsr"/>
+                            <constraint firstItem="xjf-ut-Clz" firstAttribute="top" secondItem="79E-IN-0rD" secondAttribute="bottom" constant="95" id="o5P-YO-Shu"/>
+                            <constraint firstItem="ZZd-wD-n9l" firstAttribute="leading" secondItem="kDR-Ui-rra" secondAttribute="leading" id="teq-1f-rUk"/>
                             <constraint firstItem="LXR-ye-sLl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="u48-SV-Abs"/>
                             <constraint firstItem="YJB-AR-yoN" firstAttribute="leading" secondItem="LXR-ye-sLl" secondAttribute="leading" id="wmN-JP-Ad8"/>
+                            <constraint firstItem="gc7-kT-F3p" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="118" id="xfL-0n-lub"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <connections>
@@ -106,8 +226,16 @@
                     </view>
                     <connections>
                         <outlet property="circle1" destination="LXR-ye-sLl" id="6un-bR-hzl"/>
+                        <outlet property="circle10" destination="79E-IN-0rD" id="c92-dA-6gf"/>
+                        <outlet property="circle11" destination="lnm-dK-qwF" id="HTm-Cs-zCR"/>
+                        <outlet property="circle12" destination="o3r-Sw-UhT" id="owu-Tr-dpf"/>
                         <outlet property="circle2" destination="YJB-AR-yoN" id="ZZu-S7-cbX"/>
                         <outlet property="circle3" destination="d0a-td-bBv" id="VIj-z9-ip4"/>
+                        <outlet property="circle4" destination="gc7-kT-F3p" id="wCK-Tc-Ed8"/>
+                        <outlet property="circle6" destination="xjf-ut-Clz" id="0a1-iG-gh9"/>
+                        <outlet property="circle7" destination="LKE-cp-qqb" id="er8-Xg-oBP"/>
+                        <outlet property="circle8" destination="kDR-Ui-rra" id="zaa-ML-96S"/>
+                        <outlet property="circle9" destination="ZZd-wD-n9l" id="qPZ-Lb-qLi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
