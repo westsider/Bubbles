@@ -12,6 +12,7 @@
 		0DBBA85E20D7FF9200066300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DBBA85C20D7FF9200066300 /* Main.storyboard */; };
 		0DBBA86020D7FF9300066300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DBBA85F20D7FF9300066300 /* Assets.xcassets */; };
 		0DBBA86320D7FF9300066300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DBBA86120D7FF9300066300 /* LaunchScreen.storyboard */; };
+		0DBBA86B20D800BB00066300 /* Rounded View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBBA86A20D800BB00066300 /* Rounded View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0DBBA85F20D7FF9300066300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DBBA86220D7FF9300066300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DBBA86420D7FF9300066300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DBBA86A20D800BB00066300 /* Rounded View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rounded View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		0DBBA84C20D7FF9200066300 = {
 			isa = PBXGroup;
 			children = (
+				0DBBA86A20D800BB00066300 /* Rounded View.swift */,
 				0DBBA85720D7FF9200066300 /* Bubbles */,
 				0DBBA85620D7FF9200066300 /* Products */,
 			);
@@ -54,11 +57,11 @@
 		0DBBA85720D7FF9200066300 /* Bubbles */ = {
 			isa = PBXGroup;
 			children = (
-				0DBBA85820D7FF9200066300 /* AppDelegate.swift */,
-				0DBBA85A20D7FF9200066300 /* ViewController.swift */,
 				0DBBA85C20D7FF9200066300 /* Main.storyboard */,
+				0DBBA85A20D7FF9200066300 /* ViewController.swift */,
 				0DBBA85F20D7FF9300066300 /* Assets.xcassets */,
 				0DBBA86120D7FF9300066300 /* LaunchScreen.storyboard */,
+				0DBBA85820D7FF9200066300 /* AppDelegate.swift */,
 				0DBBA86420D7FF9300066300 /* Info.plist */,
 			);
 			path = Bubbles;
@@ -137,6 +140,7 @@
 			files = (
 				0DBBA85B20D7FF9200066300 /* ViewController.swift in Sources */,
 				0DBBA85920D7FF9200066300 /* AppDelegate.swift in Sources */,
+				0DBBA86B20D800BB00066300 /* Rounded View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
