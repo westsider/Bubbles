@@ -89,10 +89,20 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lnm-dK-qwF" customClass="DesignableView" customModule="Bubbles" customModuleProvider="target">
                                 <rect key="frame" x="27" y="485" width="50" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ramen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t6t-jS-z3F">
+                                        <rect key="frame" x="7" y="18" width="36" height="15"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="0.25882352941176473" green="0.36862745098039218" blue="0.12156862745098039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="8Mf-Zl-OFl"/>
+                                    <constraint firstItem="t6t-jS-z3F" firstAttribute="centerY" secondItem="lnm-dK-qwF" secondAttribute="centerY" id="cIX-FY-Zz1"/>
                                     <constraint firstAttribute="height" constant="50" id="lYN-jN-ufX"/>
+                                    <constraint firstItem="t6t-jS-z3F" firstAttribute="centerX" secondItem="lnm-dK-qwF" secondAttribute="centerX" id="t4I-t7-fF4"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -102,10 +112,20 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="79E-IN-0rD" customClass="DesignableView" customModule="Bubbles" customModuleProvider="target">
                                 <rect key="frame" x="274" y="283" width="50" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="greens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17W-BZ-xCY">
+                                        <rect key="frame" x="7" y="19" width="36" height="13.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="0.36470588235294116" green="0.54117647058823526" blue="0.63137254901960782" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="1P8-rD-9Pv"/>
                                     <constraint firstAttribute="width" constant="50" id="Kgd-aH-yH9"/>
+                                    <constraint firstItem="17W-BZ-xCY" firstAttribute="centerY" secondItem="79E-IN-0rD" secondAttribute="centerY" id="PVW-93-7bs"/>
+                                    <constraint firstItem="17W-BZ-xCY" firstAttribute="centerX" secondItem="79E-IN-0rD" secondAttribute="centerX" id="TZg-5Z-mXa"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -115,10 +135,20 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZZd-wD-n9l" customClass="DesignableView" customModule="Bubbles" customModuleProvider="target">
                                 <rect key="frame" x="27" y="225" width="50" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="steak" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lrk-Jt-bdh">
+                                        <rect key="frame" x="9" y="17" width="31" height="15"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="0.054901960784313725" green="0.19607843137254902" blue="0.73333333333333328" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="1B6-jg-Zd3"/>
+                                    <constraint firstItem="Lrk-Jt-bdh" firstAttribute="centerY" secondItem="ZZd-wD-n9l" secondAttribute="centerY" id="F9W-zv-lpH"/>
                                     <constraint firstAttribute="width" constant="50" id="cae-D6-884"/>
+                                    <constraint firstItem="Lrk-Jt-bdh" firstAttribute="centerX" secondItem="ZZd-wD-n9l" secondAttribute="centerX" id="qM0-Z8-egx"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -128,10 +158,20 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kDR-Ui-rra" customClass="DesignableView" customModule="Bubbles" customModuleProvider="target">
                                 <rect key="frame" x="27" y="41" width="50" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="pho" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hb6-dn-LSo">
+                                        <rect key="frame" x="14" y="18" width="22" height="15"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="0.054901960784313725" green="0.19607843137254902" blue="0.73333333333333328" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="GoF-BZ-LY8"/>
                                     <constraint firstAttribute="width" constant="50" id="UkA-hE-pq2"/>
+                                    <constraint firstItem="Hb6-dn-LSo" firstAttribute="centerX" secondItem="kDR-Ui-rra" secondAttribute="centerX" id="c9x-9r-xcZ"/>
+                                    <constraint firstItem="Hb6-dn-LSo" firstAttribute="centerY" secondItem="kDR-Ui-rra" secondAttribute="centerY" id="kvD-NE-0jE"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -141,10 +181,20 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gc7-kT-F3p" customClass="DesignableView" customModule="Bubbles" customModuleProvider="target">
                                 <rect key="frame" x="85" y="138" width="75" height="75"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tapas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nro-VI-var">
+                                        <rect key="frame" x="17" y="28" width="40.5" height="19.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="0.36470588235294116" green="0.54117647058823526" blue="0.63137254901960782" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="Nro-VI-var" firstAttribute="centerX" secondItem="gc7-kT-F3p" secondAttribute="centerX" id="046-dZ-0x3"/>
                                     <constraint firstAttribute="height" constant="75" id="5Gf-i1-I99"/>
                                     <constraint firstAttribute="width" constant="75" id="Bp6-3J-cKg"/>
+                                    <constraint firstItem="Nro-VI-var" firstAttribute="centerY" secondItem="gc7-kT-F3p" secondAttribute="centerY" id="mTb-rY-cQu"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -154,10 +204,20 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o3r-Sw-UhT" customClass="DesignableView" customModule="Bubbles" customModuleProvider="target">
                                 <rect key="frame" x="178" y="180" width="75" height="75"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="french" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hx0-Hl-tXN">
+                                        <rect key="frame" x="15" y="29" width="44.5" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="0.054901960784313725" green="0.19607843137254902" blue="0.73333333333333328" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="hx0-Hl-tXN" firstAttribute="centerX" secondItem="o3r-Sw-UhT" secondAttribute="centerX" id="00N-A9-niF"/>
                                     <constraint firstAttribute="width" constant="75" id="O0s-J8-1l3"/>
                                     <constraint firstAttribute="height" constant="75" id="gcf-SN-tlP"/>
+                                    <constraint firstItem="hx0-Hl-tXN" firstAttribute="centerY" secondItem="o3r-Sw-UhT" secondAttribute="centerY" id="oce-DB-qGD"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -167,10 +227,20 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xjf-ut-Clz" customClass="DesignableView" customModule="Bubbles" customModuleProvider="target">
                                 <rect key="frame" x="249" y="428" width="75" height="75"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spanish" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="auq-wd-vf3">
+                                        <rect key="frame" x="9.5" y="29" width="55" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="0.25882352941176473" green="0.36862745098039218" blue="0.12156862745098039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="75" id="Cz6-qz-7ws"/>
                                     <constraint firstAttribute="height" constant="75" id="Lrb-3o-RMU"/>
+                                    <constraint firstItem="auq-wd-vf3" firstAttribute="centerY" secondItem="xjf-ut-Clz" secondAttribute="centerY" id="Wf2-uI-AJQ"/>
+                                    <constraint firstItem="auq-wd-vf3" firstAttribute="centerX" secondItem="xjf-ut-Clz" secondAttribute="centerX" id="jO8-8O-MUw"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -180,10 +250,20 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LKE-cp-qqb" customClass="DesignableView" customModule="Bubbles" customModuleProvider="target">
                                 <rect key="frame" x="55" y="370" width="75" height="75"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sushi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dhK-lf-g84">
+                                        <rect key="frame" x="19.5" y="29" width="36" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="0.36470588235294116" green="0.54117647058823526" blue="0.63137254901960782" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="dhK-lf-g84" firstAttribute="centerY" secondItem="LKE-cp-qqb" secondAttribute="centerY" id="1ob-Ti-wHM"/>
                                     <constraint firstAttribute="width" constant="75" id="rmy-G1-8gU"/>
                                     <constraint firstAttribute="height" constant="75" id="snh-zS-jdh"/>
+                                    <constraint firstItem="dhK-lf-g84" firstAttribute="centerX" secondItem="LKE-cp-qqb" secondAttribute="centerX" id="ydT-OV-QSK"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
